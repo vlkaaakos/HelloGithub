@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace HelloGithub
 {
-    internal class Person
+    public class Person
     {
+        public string Name { get; set; }    
+        public int Age { get; set; }    
+
     }
 }
